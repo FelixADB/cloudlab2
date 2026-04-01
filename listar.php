@@ -2,7 +2,7 @@
 include("conexion.php");
 $con = conexion();
 
-$sql = "SELECT * FROM persona ORDER BY id ASC";
+$sql = "SELECT * FROM persona ORDER BY idpersona ASC";
 $resultado = pg_query($con, $sql);
 ?>
 <!doctype html>
