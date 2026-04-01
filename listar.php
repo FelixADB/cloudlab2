@@ -57,12 +57,12 @@ $resultado = pg_query($con, $sql);
                             while($row = pg_fetch_assoc($resultado)): 
                         ?>
                             <tr>
-                                <td><?php echo $row['id']; ?></td>
-                                <td><?php echo $row['doc']; ?></td>
-                                <td><?php echo $row['nom']; ?></td>
-                                <td><?php echo $row['ape']; ?></td>
-                                <td><?php echo $row['dir']; ?></td>
-                                <td><?php echo $row['cel']; ?></td>
+                                <td><?php echo $row['idpersona']; ?></td>
+                                <td><?php echo $row['documento']; ?></td>
+                                <td><?php echo $row['nombre']; ?></td>
+                                <td><?php echo $row['apellido']; ?></td>
+                                <td><?php echo $row['direccion']; ?></td>
+                                <td><?php echo $row['celular']; ?></td>
                                 <td class="text-center">
                                     <a href="#" class="btn btn-sm btn-outline-warning">Editar</a>
                                     <a href="#" class="btn btn-sm btn-outline-danger">Eliminar</a>
